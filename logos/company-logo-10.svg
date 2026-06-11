@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 120" role="img" aria-labelledby="title desc">
+  <title id="title">Company 10 logo placeholder</title>
+  <desc id="desc">Replace this file with the actual Company 10 company logo.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#fff4df"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="244" height="104" rx="26" fill="url(#g)" stroke="#15111d22" stroke-width="2"/>
+  <circle cx="66" cy="60" r="28" fill="#2f80ed" opacity="0.92"/>
+  <text x="66" y="68" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" fill="#ffffff">C0</text>
+  <text x="110" y="54" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="900" fill="#15111d">Company 10</text>
+  <text x="110" y="78" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#716a7b">LOGO PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7DDE6"/>
+      <stop offset="0.55" stop-color="#EFE7D6"/>
+      <stop offset="1" stop-color="#E9E1FB"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="160" y1="140" x2="1040" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6F3BFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#1A1224" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1200" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#2A183C" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" rx="42" fill="url(#g1)"/>
+  <rect x="70" y="70" width="1060" height="760" rx="34" fill="#fff" fill-opacity="0.5" stroke="#fff" stroke-opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <rect x="245" y="185" width="710" height="425" rx="42" fill="url(#g2)" stroke="#fff" stroke-width="10"/>
+    <path d="M540 370c0-58.542 47.458-106 106-106 58.542 0 106 47.458 106 106 0 58.542-47.458 106-106 106-58.542 0-106-47.458-106-106Z" fill="#fff" fill-opacity="0.72"/>
+    <circle cx="646" cy="370" r="50" fill="#C7C7D2"/>
+    <rect x="447" y="495" width="398" height="28" rx="14" fill="#fff" fill-opacity="0.8"/>
+    <rect x="315" y="265" width="95" height="230" rx="22" transform="rotate(-8 315 265)" fill="#fff" fill-opacity="0.84"/>
+    <rect x="804" y="272" width="95" height="230" rx="22" transform="rotate(8 804 272)" fill="#fff" fill-opacity="0.84"/>
+    <rect x="332" y="286" width="61" height="61" rx="12" fill="#D6D6DE"/>
+    <rect x="336" y="362" width="61" height="61" rx="12" fill="#D6D6DE"/>
+    <rect x="340" y="438" width="61" height="61" rx="12" fill="#D6D6DE"/>
+    <rect x="821" y="293" width="61" height="61" rx="12" fill="#D6D6DE"/>
+    <rect x="825" y="369" width="61" height="61" rx="12" fill="#D6D6DE"/>
+    <rect x="829" y="445" width="61" height="61" rx="12" fill="#D6D6DE"/>
+  </g>
+  <text x="600" y="685" text-anchor="middle" fill="#261A34" fill-opacity="0.7" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Add backdrop photo here</text>
+</svg>
