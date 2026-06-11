@@ -44,3 +44,53 @@ Placeholder logo files are in `assets/logos/`:
 - `company-logo-08.svg`
 
 To use real company logos, replace those SVG files with the actual logo images and keep the same filenames, or update the image paths and alt text in the company carousel section of `index.html`.
+
+
+## Latest updates
+
+- Centered the page layout and section headings across the website.
+- Added a Google reviews carousel to the homepage.
+- Added a Google reviews button that points to the public UrMoments Google Maps review page.
+- Simplified the mobile layout with larger tap targets, cleaner stacked cards, centered CTAs, and reduced visual clutter.
+
+To change the Google button destination later, edit the `href` inside the `.google-btn` link in `index.html`.
+
+
+## Latest update
+- Replaced the homepage hero with a centered cinematic hero matching the requested reference style.
+- Removed the highlighted visual/offer block under the original hero.
+- Converted Event Photos, Featured Services, and Popular Packages into swipe carousels.
+- Added Photobooth, 360 Booth, Photo Keychain, Sparkle + Ice Fog, and other service cards.
+- Added Instagram, Facebook, and TikTok links to every footer and the Gallery page.
+- Enhanced mobile spacing, carousel controls, and simplified the overall layout.
+
+
+## Carousel/font update
+- Service carousel headings were reduced so titles such as Photobooth, Mirrorbooth, and 360 Booth do not get cut off.
+- The company logo carousel now includes 15 placeholder logo cards total.
+- The logo carousel animation was made faster.
+
+
+## FAQ and Terms update
+- Added a new `faq.html` page with booking, payment, customization, setup, logistics, and add-on questions.
+- Added `FAQ` to the main navigation and footer navigation.
+- Added a footer `Terms & Conditions` button on every page.
+- Clicking `Terms & Conditions` opens a popup/modal with the supplied terms text.
+
+
+## Font update
+- Headings now use Montserrat.
+- Body text now uses Lato.
+- Fonts are loaded from Google Fonts in `styles.css`.
+
+
+## Real company and institution logos
+The company carousel now includes uploaded real logo images for Albright Centre, Baker Centre, Brock University, The Dunfield, Extendicare, The Fresh Approach, HelloFresh, Humber, McMaster University, Red Bull, Scaddabush, Scarborough Health Network, St. Joseph's Health Care Foundation, UHN, University of Toronto, Vaughan, York Region, and York University. The carousel speed has also been increased.
+
+
+## Gallery update
+Real gallery samples were added to `assets/gallery/`, including 2x6 photo strips and 4x6 layout examples. Gallery cards open in a larger lightbox when clicked.
+
+
+## Gallery update
+- Added four additional 6x4 portrait gallery samples with click-to-enlarge support.

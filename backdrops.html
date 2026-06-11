@@ -6,52 +6,201 @@
   <title>Backdrops | UrMoments Photobooth</title>
   <meta name="description" content="Backdrop options including sequin, floral, chiffon, black, white, and neon sign add-ons.">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "UrMoments Photobooth",
+    "description": "Premium photo booth rental, 360 booth, mirror booth, audio guestbook, instant print, custom overlay, and backdrop services in Toronto and the Greater Toronto Area.",
+    "url": "https://www.urmoments.ca/",
+    "telephone": "+1-647-448-3602",
+    "email": "urmoments@hotmail.com",
+    "areaServed": ["Toronto", "Mississauga", "Brampton", "Oakville", "Milton", "Vaughan", "Markham", "Scarborough", "North York", "Greater Toronto Area", "Ontario"],
+    "serviceType": ["Photo booth rental", "360 booth rental", "Mirror booth rental", "Audio guestbook", "Event photography booth", "Custom photo booth templates", "Backdrop rentals"]
+  }
+  </script>
 </head>
 <body>
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="logo" href="index.html" aria-label="UrMoments home"><span class="logo-mark">UM</span><span>UrMoments<small>Photobooth</small></span></a>
-    <nav class="nav" data-nav><a href="index.html" class="">Home</a><a href="services.html" class="">Services</a><a href="packages.html" class="">Packages</a><a href="backdrops.html" class="active">Backdrops</a><a href="gallery.html" class="">Gallery</a><a href="contact.html" class="">Contact</a></nav>
-    <div class="header-actions"><a class="phone" href="tel:+16474483602">647-448-3602</a><button class="menu-toggle" data-menu aria-label="Open navigation">☰</button></div>
+    <a class="logo" href="index.html" aria-label="UrMoments Photobooth home"><img class="brand-logo-image" src="assets/brand/urmoments-logo.png" alt="UrMoments Photobooth logo" width="56" height="56"><span class="brand-wordmark"><strong>UrMoments</strong><small>Photobooth</small></span></a>
+    <nav class="nav" data-nav><a href="index.html" class="">Home</a><a href="services.html" class="">Services</a><a href="packages.html" class="">Packages</a><a href="backdrops.html" class="active">Backdrops</a><a href="gallery.html" class="">Gallery</a><a href="faq.html" class="">FAQ</a><a href="contact.html" class="">Contact</a></nav>
+    <div class="header-actions">
+      <button class="menu-toggle" data-menu aria-label="Open navigation">☰</button>
+    </div>
   </div>
 </header>
 <main>
 
-<section class="container hero compact">
+<section class="container hero compact backdrop-hero-simple">
   <div>
     <p class="eyebrow">Backdrops</p>
-    <h1>Match the booth to your theme.</h1>
-    <p class="lead">Organize backdrop choices by texture, colour, and style so clients can quickly picture the setup.</p>
-    <div class="actions"><a class="btn" href="contact.html">Ask about availability</a><a class="btn secondary" href="gallery.html">View gallery</a></div>
-  </div>
-  <div class="visual photo-hero" aria-label="Backdrop photo preview">
-    <figure class="hero-photo hero-photo-main"><img src="assets/photos/floral-backdrop.svg" alt="Floral photo booth backdrop"></figure>
-    <figure class="hero-photo hero-photo-small one"><img src="assets/photos/backdrop-sequin.svg" alt="Sequin backdrop option"></figure>
-    <figure class="hero-photo hero-photo-small two"><img src="assets/photos/backdrop-minimal.svg" alt="Minimal backdrop option"></figure>
+    <h1>Choose the perfect backdrop for your event.</h1>
+    <p class="lead">Your real backdrop photos are now added below. Each option is shown as a simple image card with the name at the bottom for easy browsing.</p>
+    <div class="actions"><a class="btn" href="https://form.jotform.com/243221273057247" target="_blank" rel="noopener">Ask about availability</a><a class="btn secondary" href="gallery.html">View gallery</a></div>
   </div>
 </section>
-<section class="container section">
-  <div class="section-head"><div><p class="eyebrow">Backdrop list</p><h2>Popular choices.</h2></div><p>Replace or expand these names with your actual inventory photos when ready.</p></div>
-  <div class="pill-list"><span>Pink Sequin</span><span>Red Sequin</span><span>Silver Sequin</span><span>Blue Sequin</span><span>Gold Sequin</span><span>Pure Black</span><span>White Chiffon</span><span>White Rose Flower Wall</span><span>Champagne Flower Wall</span><span>Red Rose Flower Wall</span><span>Pure White</span><span>Neon Sign Add-On</span></div>
-</section>
+
 <section class="container section tight">
-  <div class="grid three">
-    <article class="card backdrop-card"><img class="card-photo" src="assets/photos/backdrop-sequin.svg" alt="Sequin backdrop preview"><h3>Sequin</h3><p>High-shine, playful, and bold. Great for birthdays, holiday parties, and dance-floor setups.</p></article>
-    <article class="card backdrop-card"><img class="card-photo" src="assets/photos/backdrop-floral.svg" alt="Floral backdrop preview"><h3>Floral</h3><p>Romantic and photo-friendly for weddings, showers, and elegant celebrations.</p></article>
-    <article class="card backdrop-card"><img class="card-photo" src="assets/photos/backdrop-minimal.svg" alt="Minimal backdrop preview"><h3>Minimal</h3><p>Clean black, white, or chiffon options for modern events and corporate branding.</p></article>
+  <div class="section-head"><div><p class="eyebrow">Backdrop collection</p><h2>Browse backdrop options.</h2></div><p>Reordered into simple categories. Filter by Sequin, Floral, or Simple, then click any image to view it larger.</p></div>
+  <div class="backdrop-filter" role="group" aria-label="Filter backdrop collection">
+    <button class="active" type="button" data-backdrop-filter="all" aria-pressed="true">All</button>
+    <button type="button" data-backdrop-filter="sequin" aria-pressed="false">Sequin</button>
+    <button type="button" data-backdrop-filter="floral" aria-pressed="false">Floral</button>
+    <button type="button" data-backdrop-filter="simple" aria-pressed="false">Simple</button>
+  </div>
+  <div class="backdrop-gallery" data-backdrop-gallery>
+    <figure class="backdrop-placeholder" data-backdrop-category="sequin" data-lightbox-card tabindex="0" role="button" aria-label="Open Pink Sequin backdrop larger">
+      <img src="assets/photos/backdrop-pink-sequin.png" alt="Pink Sequin backdrop">
+      <figcaption>Pink Sequin</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="sequin" data-lightbox-card tabindex="0" role="button" aria-label="Open Red Sequin backdrop larger">
+      <img src="assets/photos/backdrop-red-sequin.png" alt="Red Sequin backdrop">
+      <figcaption>Red Sequin</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="sequin" data-lightbox-card tabindex="0" role="button" aria-label="Open Silver Sequin backdrop larger">
+      <img src="assets/photos/backdrop-silver-sequin.png" alt="Silver Sequin backdrop">
+      <figcaption>Silver Sequin</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="sequin" data-lightbox-card tabindex="0" role="button" aria-label="Open Blue Sequin backdrop larger">
+      <img src="assets/photos/backdrop-blue-sequin.png" alt="Blue Sequin backdrop">
+      <figcaption>Blue Sequin</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="sequin" data-lightbox-card tabindex="0" role="button" aria-label="Open Gold Sequin backdrop larger">
+      <img src="assets/photos/backdrop-gold-sequin.png" alt="Gold Sequin backdrop">
+      <figcaption>Gold Sequin</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="floral" data-lightbox-card tabindex="0" role="button" aria-label="Open White Rose Flower Wall backdrop larger">
+      <img src="assets/photos/backdrop-white-rose-flower-wall.png" alt="White Rose Flower Wall backdrop">
+      <figcaption>White Rose Flower Wall</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="floral" data-lightbox-card tabindex="0" role="button" aria-label="Open Champagne Flower Wall backdrop larger">
+      <img src="assets/photos/backdrop-champagne-flower-wall.png" alt="Champagne Flower Wall backdrop">
+      <figcaption>Champagne Flower Wall</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="floral" data-lightbox-card tabindex="0" role="button" aria-label="Open Red Rose Flower Wall backdrop larger">
+      <img src="assets/photos/backdrop-red-rose-flower-wall.png" alt="Red Rose Flower Wall backdrop">
+      <figcaption>Red Rose Flower Wall</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="simple" data-lightbox-card tabindex="0" role="button" aria-label="Open Just Black backdrop larger">
+      <img src="assets/photos/backdrop-just-black.png" alt="Just Black backdrop">
+      <figcaption>Just Black</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="simple" data-lightbox-card tabindex="0" role="button" aria-label="Open Pure White backdrop larger">
+      <img src="assets/photos/backdrop-pure-white.png" alt="Pure White backdrop">
+      <figcaption>Pure White</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="simple" data-lightbox-card tabindex="0" role="button" aria-label="Open White Chiffon backdrop larger">
+      <img src="assets/photos/backdrop-white-chiffon.png" alt="White Chiffon backdrop">
+      <figcaption>White Chiffon</figcaption>
+    </figure>
+    <figure class="backdrop-placeholder" data-backdrop-category="simple" data-lightbox-card tabindex="0" role="button" aria-label="Open Neon Sign Add-On backdrop larger">
+      <img src="assets/photos/backdrop-placeholder.svg" alt="Neon Sign Add-On backdrop">
+      <figcaption>Neon Sign Add-On</figcaption>
+    </figure>
   </div>
 </section>
-<section class="section dark"><div class="container"><div class="section-head"><div><p class="eyebrow">Tip</p><h2>Choose contrast.</h2></div><p>Pick a backdrop that contrasts with guest outfits and venue lighting so prints look crisp and memorable.</p></div></div></section>
 
 </main>
 
+<div class="backdrop-lightbox" data-backdrop-lightbox hidden>
+  <div class="backdrop-lightbox-backdrop" data-backdrop-lightbox-close></div>
+  <section class="backdrop-lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="backdrop-lightbox-title">
+    <button class="backdrop-lightbox-close" type="button" aria-label="Close backdrop preview" data-backdrop-lightbox-close>×</button>
+    <img src="" alt="" data-backdrop-lightbox-img>
+    <h3 id="backdrop-lightbox-title" data-backdrop-lightbox-title></h3>
+  </section>
+</div>
+
 <footer class="footer">
-  <div class="container">
-    <div><b>UrMoments Photobooth</b><p>Premium photobooths, 360 booths, mirrorbooths, and audio guestbooks across Toronto and the GTA.</p></div>
-    <nav><a href="index.html">Home</a><a href="services.html">Services</a><a href="packages.html">Packages</a><a href="backdrops.html">Backdrops</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav>
+  <div class="container footer-shell">
+    <div class="footer-top">
+      <div class="footer-brand footer-brand-block">
+        <a class="footer-logo" href="index.html" aria-label="UrMoments Photobooth home"><img class="footer-brand-image" src="assets/brand/urmoments-logo.png" alt="UrMoments Photobooth logo" width="86" height="86"><span class="footer-wordmark"><strong>UrMoments</strong><small>Photobooth</small></span></a>
+        <p>UrMoments Photobooth provides premium photo booth rental in Toronto and the GTA, including 360 booths, mirror booths, instant prints, custom overlays, and audio guestbooks for weddings, birthdays, corporate events, baptisms, and private celebrations.</p>
+      </div>
+      <nav class="footer-column" aria-labelledby="footer-links-title">
+        <h2 id="footer-links-title">Quick links</h2>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="packages.html">Packages</a>
+        <a href="backdrops.html">Backdrops</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-column" aria-labelledby="footer-services-title">
+        <h2 id="footer-services-title">Popular services</h2>
+        <a href="services.html">Photo Booth Rental</a>
+        <a href="services.html">360 Photo Booth</a>
+        <a href="services.html">Mirror Booth</a>
+        <a href="services.html">Audio Guestbook</a>
+        <a href="gallery.html">Custom Print Designs</a>
+        <a href="backdrops.html">Backdrop Options</a>
+      </div>
+      <div class="footer-column footer-contact" aria-labelledby="footer-contact-title">
+        <h2 id="footer-contact-title">Contact &amp; service area</h2>
+        <address>
+          <a href="mailto:urmoments@hotmail.com">urmoments@hotmail.com</a>
+          <a href="tel:+16474483602">Marj: 647-448-3602</a>
+          <a href="tel:+16478294479">Dennis: 647-829-4479</a>
+          <p>Serving Toronto, Mississauga, Brampton, Oakville, Milton, Vaughan, Markham, Scarborough, North York, and the Greater Toronto Area.</p>
+        </address>
+        <div class="footer-social-links" aria-label="Social media links">
+          <a href="https://www.instagram.com/urmomentsphotobooth" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/urmomentsphotobooth" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.tiktok.com/@urmomentsphotobooth" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 UrMoments Photobooth. Toronto photo booth rentals for weddings, birthdays, baptisms, gala events, and corporate parties.</p>
+      <div class="footer-bottom-links">
+        <button class="terms-link" type="button" data-terms-open>Terms &amp; Conditions</button>
+      </div>
+    </div>
   </div>
 </footer>
+
+<div class="terms-modal" data-terms-modal hidden>
+  <div class="terms-backdrop" data-terms-close></div>
+  <section class="terms-dialog" role="dialog" aria-modal="true" aria-labelledby="terms-title">
+    <button class="terms-close" type="button" aria-label="Close Terms &amp; Conditions" data-terms-close>×</button>
+    <p class="eyebrow">Terms &amp; Conditions</p>
+    <h2 id="terms-title">Terms &amp; Conditions</h2>
+    <p class="muted"><strong>Last Updated:</strong> June 2026</p>
+    <div class="terms-content">
+      <p>Welcome to our website. If you continue to browse and use this website, or book our services, you agree to comply with and be bound by these terms and conditions of use. These terms, together with our privacy policy, govern our relationship with you in relation to this website and our services.</p>
+      <p>The term “Company”, “us”, or “we” refers to the owner of the website and business. The term “you” or “Client” refers to the user or viewer of our website, or the person booking our services.</p>
+      <h3>1. Booking &amp; Payments</h3>
+      <p><strong>Reservation Deposit:</strong> A non-refundable deposit/retainer is required to secure your event date. No booking is confirmed until this deposit is received and a formal contract is signed.</p>
+      <p><strong>Final Payment:</strong> The remaining balance is due on the event date.</p>
+      <h3>2. Cancellation &amp; Rescheduling</h3>
+      <p><strong>Cancellations:</strong> All cancellations must be made in writing. The initial deposit is strictly non-refundable.</p>
+      <p><strong>Rescheduling:</strong> If you need to change your event date, you must notify us as soon as possible. We will make every effort to accommodate the new date, subject to equipment and staff availability. A rescheduling fee may apply if changes are made close to the original event date.</p>
+      <h3>3. Operations &amp; Space Requirements</h3>
+      <p>To ensure the highest quality experience, the Client agrees to provide a minimum designated space, typically 10 feet by 10 feet, on a flat, level surface.</p>
+      <p>The Client must provide access to a reliable, dedicated power outlet, 110V, 15-20 amps, within 20 feet of the setup area.</p>
+      <p>For outdoor events, complete overhead protection, such as a shelter or tent, is required to shield equipment from direct sunlight, wind, and rain. We reserve the right to shut down operations if weather conditions threaten the safety of guests or equipment.</p>
+      <h3>4. Damage to Equipment &amp; Liability</h3>
+      <p><strong>Equipment Safety:</strong> The Client accepts full responsibility for any theft, loss, or malicious damage caused to the photobooth, cameras, backdrops, props, or electronics by the Client, their guests, or venue staff during the event.</p>
+      <p><strong>Repair Costs:</strong> The Client agrees to pay for the repair or replacement of any damaged equipment incurred during the hire period.</p>
+      <p><strong>Injury Liability:</strong> We are not liable for any injury, loss, or damage to persons or property arising from the use of our equipment, except in cases of gross negligence by our staff.</p>
+      <h3>5. Model Release &amp; Digital Media</h3>
+      <p><strong>Usage Rights:</strong> By using our services, the Client grants us the right to use digital images, videos, and audio captured during the event for promotional material, marketing, social media, and website portfolios.</p>
+      <p><strong>Privacy Request:</strong> If you or your guests prefer that certain media not be shared publicly, please notify us in writing prior to the event.</p>
+      <p><strong>Digital Galleries:</strong> While we provide digital access to event media, including online galleries and downloads, we cannot guarantee indefinite storage. Clients are encouraged to download and back up their media promptly upon delivery.</p>
+      <h3>6. Website Use &amp; Intellectual Property</h3>
+      <p>The content of this website is for general information and use only. It is subject to change without notice.</p>
+      <p>This website contains material owned by or licensed to us, including design, layout, look, appearance, graphics, and text. Reproduction is prohibited other than in accordance with the copyright notice.</p>
+      <h3>7. Limitation of Liability</h3>
+      <p>In the improbable event that we are unable to provide a functional photobooth for your event due to unforeseen circumstances, including equipment failure, transport delays, severe weather, or illness, our liability is strictly limited to a total refund of all monies paid by the Client for that specific booking. We will not be liable for any consequential damages or indirect losses.</p>
+      <h3>8. Governing Law</h3>
+      <p>These terms and conditions are governed by and construed in accordance with the local laws of our business registration jurisdiction, and any disputes relating to these terms will be subject to the exclusive jurisdiction of its courts.</p>
+    </div>
+  </section>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
